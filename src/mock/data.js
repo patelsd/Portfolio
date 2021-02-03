@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'pic.jpg',
   paragraphOne: 'I am a student at Milwaukee School of Engineering. I will be graduating in May of 2021 with a Bachelors of Science in Software Engineering and a minor in Mathematics.',
-  paragraphTwo: 'Programming and weightliftign are my passion. I push myself to learn and grow as much as possible!',
+  paragraphTwo: 'Programming and weightlifting are my passion. I push myself to learn and grow as much as possible!',
   paragraphThree: ' ',
   resume: {}, // if no resume, the button will not show up
 };
