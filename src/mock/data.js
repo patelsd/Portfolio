@@ -18,28 +18,27 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'pic.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I am a student at Milwaukee School of Engineering. I will be graduating in May of 2021 with a Bachelors of Science in Software Engineering and a minor in Mathematics.',
+  paragraphTwo: 'Programming and weightliftign are my passion. I push myself to learn and grow as much as possible!',
+  paragraphThree: ' ',
+  resume: {}, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'chart.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'sudoku.jpeg',
+    title: 'Sudoku Generator & Solver',
+    info: 'This will create a valid Sudoku board given data received from an API endpoint. The valid board will then be solved using the backtracking algorithm in O(n^m) time, where n is the number of possibilities for a square and m is the number of black spaces.',
+    info2: 'I learned about consuming an API in Python using requests and implementing the backtracking algorithm.',
+    repo: 'https://github.com/patelsd/Sudoku', // if no repo, the button will not show up
   }
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Would you like to get in touch?',
   btn: '',
   email: 'shreyeshpatel@outlook.com',
 };
@@ -58,9 +57,4 @@ export const footerData = {
       url: 'https://github.com/patelsd',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
