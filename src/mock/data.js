@@ -33,6 +33,14 @@ export const projectsData = [
     info: 'This will create a valid Sudoku board given data received from an API endpoint. The valid board will then be solved using the backtracking algorithm in O(n^m) time, where n is the number of possibilities for a square and m is the number of black spaces.',
     info2: 'I learned about consuming an API in Python using requests and implementing the backtracking algorithm.',
     repo: 'https://github.com/patelsd/Sudoku', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'platformer.png',
+    title: 'Platformer',
+    info: 'Designing a platformer game using PyGame.',
+    info2: '',
+    repo: 'https://github.com/patelsd/Platformer', // if no repo, the button will not show up
   }
 ];
 
